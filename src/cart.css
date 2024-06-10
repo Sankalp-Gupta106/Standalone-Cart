@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,36 +12,41 @@ header{
     padding: 40px;
     border-bottom: 5px solid blue;
 }
-.products{
+
+.products {
     border-bottom: 5px solid;
     width: fit-content;
     margin: auto;
 }
-.bag{
+
+.bag {
     margin: 0px 100px 0px 100px;
     /* padding-inline-start: 500px; */
     /* padding-inline-end: 500px; */
     display: flex;
     height: 4%;
-    justify-content: center ;
-    align-items:center ;
+    justify-content: center;
+    align-items: center;
 }
 
-img{
+img {
     height: 100px;
     width: 120px;
 }
-.description{
-    width:500px;
+
+.description {
+    width: 500px;
 }
-footer{
+
+footer {
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.first{
+
+.first {
     display: flex;
     flex-direction: row;
     width: 700px;
@@ -49,9 +55,16 @@ footer{
     margin-top: 15px;
     margin-bottom: 3px;
 }
-.remove{
+
+.remove {
     cursor: pointer;
 }
-span{
-    cursor:pointer;
+
+span {
+    cursor: pointer;
+}
+
+.empty {
+    text-align: center;
+    margin-top: 35vh;
 }
