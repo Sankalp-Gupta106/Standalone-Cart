@@ -120,7 +120,7 @@ useEffect(()=>{
       <div className='first'>
       <h3>Total</h3>
       <p>
-      {total}
+      {Math.round(total)}
       </p>
       </div>
       <div className='second'>
