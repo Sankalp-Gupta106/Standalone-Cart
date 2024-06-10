@@ -28,7 +28,7 @@ header{
 
 img{
     height: 100px;
-    /* width: 20px; */
+    width: 120px;
 }
 .description{
     width:500px;
@@ -51,4 +51,7 @@ footer{
 }
 .remove{
     cursor: pointer;
+}
+span{
+    cursor:pointer;
 }
